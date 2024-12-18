@@ -26,8 +26,8 @@ pipeline {
                       //  sh "kubectl apply -f nginx-deployment.yaml -n default"
                       //  sh "kubectl apply -f nginx-service.yaml -n default"
                       // Clean Up  
-                        sh "kubectl delete -f nginx-deployment.yaml -n default"
-                        sh "kubectl delete -f nginx-service.yaml -n default"
+                       // sh "kubectl delete -f nginx-deployment.yaml -n default"
+                       // sh "kubectl delete -f nginx-service.yaml -n default"
                         
                     }
                 }
